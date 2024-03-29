@@ -1,0 +1,2238 @@
+repo_name: instagated/medusa
+report_id: a59b0a1f853f5436e39b4c555e6204ed
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-29T20:28:47+00:00'
+requested_by: shahednasser
+provider: github
+branch: master
+detected_tools_count: 159
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/instagated/medusa
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/instagated/medusa
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-plugin-contentful/package.json
+  detection_source: packages/medusa-plugin-contentful/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2020-07-02 07:41:57.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/instagated/medusa
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa/package.json
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-18 14:08:22.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-02-03 08:49:12.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/docs-util/typedoc-plugins/typedoc-frontmatter-plugin/package.json
+  detection_source: docs-util/typedoc-plugins/typedoc-frontmatter-plugin/package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-07-08 15:21:46.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-07-05 07:51:23.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 5.3.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-12-14 18:09:36.000000000 Z
+- name: TypeORM
+  description: An ORM that can run in NodeJS and others
+  website_url: https://typeorm.io/
+  version: 0.2.45
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7419/20165699.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: integration-tests/api/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-02-03 08:49:12.000000000 Z
+- name: Bull
+  description: Premium Queue package for handling jobs and messages in NodeJS
+  website_url: https://github.com/OptimalBits/bull
+  open_source: true
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/9146/bull-logo.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa/package.json
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-18 14:08:22.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-plugin-restock-notification/package.json
+  detection_source: packages/medusa-plugin-restock-notification/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-25 15:50:30.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 3.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-plugin-contentful/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2020-07-02 07:41:57.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa/package.json
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-18 14:08:22.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: ".babelrc.js"
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-11-21 14:50:42.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/package.json
+  detection_source: integration-tests/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-07-23 10:27:05.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-18 13:51:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/instagated/medusa
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/.github/workflows/action.yml
+  detection_source: ".github/workflows/action.yml"
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-08-24 10:29:53.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: integration-tests/api/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-02-03 08:49:12.000000000 Z
+- name: Microbundle
+  description: Zero-configuration bundler for tiny modules
+  website_url: https://www.npmjs.com/package/microbundle
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/8111/oo715.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-11-11 17:28:45.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa/package.json
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-18 14:08:22.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-09-20 07:21:24.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-09-13 10:42:33.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-plugin-contentful/package.json
+  detection_source: packages/medusa-plugin-contentful/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2020-07-02 07:41:57.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2021-11-18 14:19:17.000000000 Z
+- name: Testcontainers
+  description: A library that integrates Docker with testing libs - for databases,
+    Selenium web browsers, or anything else that can run in a Docker container
+  website_url: https://www.testcontainers.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/9791/IOUXc3V1_400x400.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/package.json
+  detection_source: integration-tests/package.json
+  last_updated_by: Frane Polić
+  last_updated_on: 2022-08-25 20:16:51.000000000 Z
+- name: Verdaccio
+  description: A lightweight private npm proxy registry
+  website_url: https://verdaccio.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/9786/pfymFpmu_400x400.jpg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-dev-cli/package.json
+  detection_source: packages/medusa-dev-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-16 08:51:04.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/docs-util/typedoc-plugins/typedoc-frontmatter-plugin/yarn.lock
+  detection_source: docs-util/typedoc-plugins/typedoc-frontmatter-plugin/yarn.lock
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-09-13 10:42:33.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-telemetry/package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-09-13 10:42:33.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package.json
+  detection_source: www/docs/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2021-08-24 16:16:42.000000000 Z
+- name: Algolia
+  description: Developer-friendly API and complete set of tools for building search
+  website_url: https://www.algolia.com/?utm_source=stackshare&utm_medium=referral
+  version: 4.14.2
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-plugin-algolia/package.json
+  last_updated_by: Rolwin Reevan Monteiro
+  last_updated_on: 2021-11-12 13:10:00.000000000 Z
+- name: Mailchimp
+  description: Easy email newsletters
+  website_url: http://mailchimp.com
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Email Marketing
+  image_url: https://img.stackshare.io/service/47/default_3a2efb58b55346c25d951f68f21e56f8af77c9b8.jpg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-plugin-mailchimp/package.json
+  detection_source: packages/medusa-plugin-mailchimp/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2020-10-01 10:30:11.000000000 Z
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-cli/package.json
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-05-07 11:47:27.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-file-spaces/package.json
+  detection_source: packages/medusa-file-spaces/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-07-07 12:36:48.000000000 Z
+- name: Twilio
+  description: Bring voice and messaging to your web and mobile applications.
+  website_url: http://www.twilio.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Voice and SMS
+  image_url: https://img.stackshare.io/service/130/VrwpNfjh_400x400.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-plugin-twilio-sms/package.json
+  detection_source: packages/medusa-plugin-twilio-sms/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2020-09-09 08:52:58.000000000 Z
+- name: Gatsby
+  description: Free, open source framework for building blazing fast websites and
+    apps with React
+  website_url: https://www.gatsbyjs.org
+  version: 4.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/gatsby-source-medusa/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-12-14 19:56:31.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-dev-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-16 08:51:04.000000000 Z
+- name: MeiliSearch
+  description: Ultra relevant, instant and typo-tolerant full-text search API
+  website_url: https://github.com/meilisearch/MeiliSearch
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/11702/43250847.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-plugin-meilisearch/package.json
+  detection_source: packages/medusa-plugin-meilisearch/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2022-09-05 16:15:09.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-plugin-economic/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2020-07-11 10:20:35.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa/package.json
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-21 14:13:47.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/instagated/medusa
+  detection_source: Repo Metadata
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/medusa-cli/package.json
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-07-26 08:09:55.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-02-03 08:49:12.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/packages/create-medusa-app/package.json
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-10-12 20:09:46.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/instagated/medusa/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Philip Korsholm
+  last_updated_on: 2022-11-16 19:08:18.000000000 Z
+- name: class-validator
+  description: Class-based validation with Typescript / ES6 / ES5 using decorators
+    or validation schemas
+  package_url: https://www.npmjs.com/class-validator
+  version: 0.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17583/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-core-utils/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-11-23 08:47:16.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection and Cross-site Scripting in class-validator
+    cve_id: CVE-2019-18413
+    cve_url: https://github.com/advisories/GHSA-fj58-h2fr-3pp2
+    detected_date: Oct 13
+    severity: critical
+    first_patched: 0.14.0
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2021-11-18 14:19:17.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: sqlite3
+  description: Asynchronous, non-blocking SQLite3 bindings
+  package_url: https://www.npmjs.com/sqlite3
+  version: 5.0.8
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-08-16 13:45:26.000000000 Z
+  vulnerabilities:
+  - name: sqlite vulnerable to code execution due to Object coercion
+    cve_id: CVE-2022-43441
+    cve_url: https://github.com/advisories/GHSA-jqv5-7xpx-qj74
+    detected_date: Mar 14
+    severity: high
+    first_patched: 5.1.5
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-02-03 08:49:12.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  version: 9.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-dev-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-16 08:51:04.000000000 Z
+  vulnerabilities:
+  - name: Got allows a redirect to a UNIX socket
+    cve_id: CVE-2022-33987
+    cve_url: https://github.com/advisories/GHSA-pfrx-2q88-qq97
+    detected_date: Jun 22
+    severity: moderate
+    first_patched: 11.8.5
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: integration-tests/api/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-10-13 08:54:03.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: integration-tests/api/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-10-13 08:54:03.000000000 Z
+- name: "@babel/node"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/node
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: integration-tests/api/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2022-10-13 08:54:03.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-11-11 17:28:45.000000000 Z
+- name: "@babel/plugin-proposal-decorators"
+  description: Compile class and object decorators to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-decorators
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16147/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/babel-preset-medusa-package/package.json
+  last_updated_by: Philip Korsholm
+  last_updated_on: 2021-11-11 12:26:19.000000000 Z
+- name: "@babel/plugin-proposal-optional-chaining"
+  description: Transform optional chaining operators into a series of nil checks
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-optional-chaining
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16306/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/babel-preset-medusa-package/package.json
+  last_updated_by: Philip Korsholm
+  last_updated_on: 2021-11-11 12:26:19.000000000 Z
+- name: "@babel/plugin-transform-classes"
+  description: Compile ES2015 classes to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-transform-classes
+  version: 7.18.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17442/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-10-21 13:53:06.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-11-11 17:28:45.000000000 Z
+- name: "@babel/plugin-transform-typescript"
+  description: Transform TypeScript into ES.next
+  package_url: https://www.npmjs.com/@babel/plugin-transform-typescript
+  version: 7.18.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17950/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-plugin-restock-notification/package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-06-23 14:12:33.000000000 Z
+- name: "@babel/polyfill"
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/@babel/polyfill
+  version: 7.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-05-07 11:47:27.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Philip Korsholm
+  last_updated_on: 2022-11-18 09:50:13.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/babel-preset-medusa-package/package.json
+  last_updated_by: Philip Korsholm
+  last_updated_on: 2021-11-11 12:26:19.000000000 Z
+- name: "@babel/register"
+  description: Babel require hook
+  package_url: https://www.npmjs.com/@babel/register
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-10-12 19:24:01.000000000 Z
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-10-12 19:24:01.000000000 Z
+- name: "@storybook/addon-info"
+  description: A Storybook addon to show additional information for your stories
+  package_url: https://www.npmjs.com/@storybook/addon-info
+  version: 5.3.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16414/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-12-14 18:09:36.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 6.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-12-14 18:09:36.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 5.3.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-12-14 18:09:36.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-07-05 07:51:23.000000000 Z
+- name: "@svgr/webpack"
+  description: SVGR webpack loader
+  package_url: https://www.npmjs.com/@svgr/webpack
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16411/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: www/docs/package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-04-08 09:16:22.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 12.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-07-10 10:11:11.000000000 Z
+- name: "@testing-library/react-hooks"
+  description: Simple and complete React hooks testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react-hooks
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17877/default_d41d3b5a213e129d6ea411e77eecb13f54b6aea5.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-07-10 10:11:11.000000000 Z
+- name: "@types/chalk"
+  description: Stub TypeScript definitions entry for chalk
+  package_url: https://www.npmjs.com/@types/chalk
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16547/default_2d1a470f86144a45b7e94185b9a5aecb5ebb69f4.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: "@types/commander"
+  description: Stub TypeScript definitions entry for commander
+  package_url: https://www.npmjs.com/@types/commander
+  version: 2.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16802/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa/package.json
+  last_updated_by: Frane Polić
+  last_updated_on: 2022-08-25 20:16:51.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 9.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: "@types/ioredis"
+  description: TypeScript definitions for ioredis
+  package_url: https://www.npmjs.com/@types/ioredis
+  version: 4.28.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18175/default_0dba38f16e89e401bb4382c2d3f09881aac7fd70.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Frane Polić
+  last_updated_on: 2022-08-25 20:16:51.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/gatsby-source-medusa/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-07-10 10:11:11.000000000 Z
+- name: "@types/jsonwebtoken"
+  description: TypeScript definitions for jsonwebtoken
+  package_url: https://www.npmjs.com/@types/jsonwebtoken
+  version: 8.5.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Frane Polić
+  last_updated_on: 2022-08-25 20:16:51.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.182
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-02-02 16:10:56.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.11.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/docs-util/typedoc-plugins/typedoc-frontmatter-plugin/yarn.lock
+  detection_source: docs-util/typedoc-plugins/typedoc-frontmatter-plugin/package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-07-08 15:21:46.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-07-05 07:51:23.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-07-05 07:51:23.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.33.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2022-10-17 16:11:49.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.33.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2022-10-17 16:11:49.000000000 Z
+- name: algoliasearch
+  description: A fully-featured and blazing-fast JavaScript API client to interact
+    with Algolia API
+  package_url: https://www.npmjs.com/algoliasearch
+  version: 4.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17074/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-plugin-algolia/package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-06-23 14:12:33.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.1172.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-file-minio/package.json
+  last_updated_by: Edin Skeja
+  last_updated_on: 2021-12-08 09:04:47.000000000 Z
+- name: axios-mock-adapter
+  description: Axios adapter that allows to easily mock requests
+  package_url: https://www.npmjs.com/axios-mock-adapter
+  version: 1.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17391/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-02-03 08:49:12.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-11-11 17:28:45.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-12-14 18:09:36.000000000 Z
+- name: babel-preset-gatsby-package
+  description: This [Babel]
+  package_url: https://www.npmjs.com/babel-preset-gatsby-package
+  version: 2.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17872/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/gatsby-source-medusa/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-12-14 19:56:31.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-file-minio/package.json
+  last_updated_by: Edin Skeja
+  last_updated_on: 2021-12-08 09:04:47.000000000 Z
+- name: boxen
+  description: Create boxes in the terminal
+  package_url: https://www.npmjs.com/boxen
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16617/default_bfa6d5d12cc0af739d6b3d4c69dddc66832b1d34.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-telemetry/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-08-05 10:23:05.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-dev-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-16 08:51:04.000000000 Z
+- name: class-transformer
+  description: Proper decorator-based transformation / serialization / deserialization
+    of plain javascript objects to class constructors
+  package_url: https://www.npmjs.com/class-transformer
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17651/default_eb9caf7d7fb4d231f7e3b04a8c1fbef6fcd9fd73.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-core-utils/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-11-23 08:47:16.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: common-tags
+  description: A few common utility template tags for ES2015
+  package_url: https://www.npmjs.com/common-tags
+  version: 1.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17307/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: configstore
+  description: Easily load and save config without having to think about where and
+    how
+  package_url: https://www.npmjs.com/configstore
+  version: 5.0.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16988/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: connect-redis
+  description: Redis session store for Connect
+  package_url: https://www.npmjs.com/connect-redis
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17325/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Frane Polić
+  last_updated_on: 2022-08-25 20:16:51.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-06-19 15:10:15.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/babel-preset-medusa-package/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-11-21 14:50:42.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-fulfillment-webshipper/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-10-05 06:44:12.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-09-09 09:47:30.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 6.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-07-10 10:11:11.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 6.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-dev-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-16 08:51:04.000000000 Z
+- name: enquirer
+  description: Stylish, intuitive and user-friendly prompt system
+  package_url: https://www.npmjs.com/enquirer
+  version: 2.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17607/default_78eeaf18342bdd59207e3ddbe161d5d7c0391a23.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: eslint-config-google
+  description: ESLint shareable config for the Google style
+  package_url: https://www.npmjs.com/eslint-config-google
+  version: 0.14.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16249/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-11-11 17:28:45.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-11-11 17:28:45.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-09-13 10:42:33.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-11-24 10:42:04.000000000 Z
+- name: faker
+  description: Generate massive amounts of fake contextual data
+  package_url: https://www.npmjs.com/faker
+  version: 5.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: integration-tests/api/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2022-02-24 19:14:09.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: www/docs/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2021-08-24 16:16:42.000000000 Z
+- name: form-data
+  description: A library to create readable "multipart/form-data" streams
+  package_url: https://www.npmjs.com/form-data
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-js/package.json
+  last_updated_by: Philip Korsholm
+  last_updated_on: 2022-01-04 15:18:17.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: gatsby-source-filesystem
+  description: Gatsby plugin which parses files within a directory for further parsing
+    by other plugins
+  package_url: https://www.npmjs.com/gatsby-source-filesystem
+  version: 4.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17100/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/gatsby-source-medusa/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-12-14 19:56:31.000000000 Z
+- name: get-port
+  description: Get an available port
+  package_url: https://www.npmjs.com/get-port
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-16 17:15:41.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 8.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/docs-util/typedoc-plugins/typedoc-frontmatter-plugin/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-18 14:08:22.000000000 Z
+- name: global
+  description: Require global variables
+  package_url: https://www.npmjs.com/global
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16772/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-08-05 10:21:15.000000000 Z
+- name: hosted-git-info
+  description: Provides metadata and conversions from repository urls for Github
+  package_url: https://www.npmjs.com/hosted-git-info
+  version: 2.8.9
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18382/default_0008ec7bce131ce74614376dd8fedbce07bc8742.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-10-12 20:09:46.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 8.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-04-22 16:44:55.000000000 Z
+- name: ioredis
+  description: A robust
+  package_url: https://www.npmjs.com/ioredis
+  version: 4.28.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-source-shopify/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-12-08 09:09:21.000000000 Z
+- name: joi
+  description: Object schema validation
+  package_url: https://www.npmjs.com/joi
+  version: 17.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-core-utils/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-21 14:13:47.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 11.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Philip Korsholm
+  last_updated_on: 2022-11-16 19:08:18.000000000 Z
+- name: lodash-es
+  description: Lodash exported as ES modules
+  package_url: https://www.npmjs.com/lodash-es
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-12-14 18:09:36.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-plugin-economic/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2020-07-11 10:20:35.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-18 14:08:22.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-07-05 07:51:23.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: node-schedule
+  description: A cron-like and not-cron-like job scheduler for Node
+  package_url: https://www.npmjs.com/node-schedule
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17126/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2022-05-28 11:58:48.000000000 Z
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-04-22 16:44:55.000000000 Z
+- name: papaparse
+  description: Fast and powerful CSV parser for the browser that supports web workers
+    and streaming large files
+  package_url: https://www.npmjs.com/papaparse
+  version: 5.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17945/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-06-19 15:10:15.000000000 Z
+- name: passport-http-bearer
+  description: HTTP Bearer authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-http-bearer
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18642/default_2ce87174f76a8a30bb152c1b5ab4899183316b11.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-03-24 08:48:38.000000000 Z
+- name: passport-jwt
+  description: Passport authentication strategy using JSON Web Tokens
+  package_url: https://www.npmjs.com/passport-jwt
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18238/default_d0bdfc944c04fa7e84198f9a2784cc716a3d91a3.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-21 14:13:47.000000000 Z
+- name: passport-local
+  description: Local username and password authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-local
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16747/default_adce7cef6d131ffc31466624541462e4db9534d4.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-01-21 14:13:47.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-plugin-restock-notification/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-03-25 15:50:30.000000000 Z
+- name: prompts
+  description: Lightweight, beautiful and user-friendly prompts
+  package_url: https://www.npmjs.com/prompts
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: qs
+  description: A querystring parser that supports nesting and arrays
+  package_url: https://www.npmjs.com/qs
+  version: 6.10.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-js/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2021-11-18 14:19:17.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-07-05 07:51:23.000000000 Z
+- name: react-is
+  description: Brand checking of React Elements
+  package_url: https://www.npmjs.com/react-is
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: olivermrbl
+  last_updated_on: 2022-07-05 07:51:23.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 4.4.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: www/docs/package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-09-30 09:02:13.000000000 Z
+- name: reflect-metadata
+  description: Polyfill for Metadata Reflection API
+  package_url: https://www.npmjs.com/reflect-metadata
+  version: 0.1.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-12-08 12:21:54.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-05-07 11:47:27.000000000 Z
+- name: size-limit
+  description: CLI tool for Size Limit
+  package_url: https://www.npmjs.com/size-limit
+  version: 6.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17177/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2021-12-14 18:09:36.000000000 Z
+- name: stack-trace
+  description: Get v8 stack traces as an array of CallSite objects
+  package_url: https://www.npmjs.com/stack-trace
+  version: 0.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17627/default_a2ed0e6920692a262585bcb41289d278d6e5223e.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-07-26 08:09:55.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 25.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-11-11 17:28:45.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Carlos R. L. Rodrigues
+  last_updated_on: 2022-10-21 13:53:06.000000000 Z
+- name: tsc-watch
+  description: The TypeScript compiler with onSuccess command
+  package_url: https://www.npmjs.com/tsc-watch
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18024/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: packages/gatsby-source-medusa/package.json
+  last_updated_by: Kasper Fabricius Kristensen
+  last_updated_on: 2021-12-14 19:56:31.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 1.14.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-react/package.json
+  last_updated_by: Zakaria El Asri
+  last_updated_on: 2022-07-10 10:11:11.000000000 Z
+- name: typedoc
+  description: Create api documentation for TypeScript projects
+  package_url: https://www.npmjs.com/typedoc
+  version: 0.22.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15983/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/docs-util/typedoc-plugins/typedoc-frontmatter-plugin/yarn.lock
+  detection_source: docs-util/typedoc-plugins/typedoc-frontmatter-plugin/package.json
+  last_updated_by: Shahed Nasser
+  last_updated_on: 2022-07-08 15:21:46.000000000 Z
+- name: typedoc-plugin-markdown
+  description: A plugin for TypeDoc that enables TypeScript API documentation to be
+    generated in Markdown
+  package_url: https://www.npmjs.com/typedoc-plugin-markdown
+  version: 3.13.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17015/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2022-10-17 16:11:49.000000000 Z
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  version: 0.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/www/docs/package-lock.json
+  detection_source: www/docs/package.json
+  last_updated_by: Oliver Windall Juhl
+  last_updated_on: 2021-08-24 16:16:42.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/create-medusa-app/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-09-10 14:02:54.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2021-07-26 08:09:55.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 15.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/instagated/medusa/blob/master/integration-tests/api/yarn.lock
+  detection_source: packages/medusa-cli/package.json
+  last_updated_by: Sebastian Rindom
+  last_updated_on: 2020-05-07 11:47:27.000000000 Z
