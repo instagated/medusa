@@ -36,7 +36,7 @@
     "hosted-git-info": "^4.0.2",
     "is-valid-path": "^0.1.1",
     "microbundle": "^0.13.3",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.8",
     "prompts": "^2.4.1",
     "string-length": "^4.0.2",
     "terminal-link": "^2.1.1",
